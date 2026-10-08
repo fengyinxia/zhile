@@ -1,0 +1,36 @@
+# Local work, generated artifacts and IDE files
+.work/
+.trash/
+.idea/
+.gradle/
+**/build/
+__pycache__/
+*.pyc
+*.iml
+.DS_Store
+/local.properties
+
+# Credentials and signed binaries
+secrets/
+auth.json
+trust.json
+.env
+.env.*
+*.jks
+*.keystore
+*.dpapi
+*.pem
+*.key
+*.apk
+*.aab
+*.dex
+*.class
+*.jar
+*.so
+
+# Internal handoff, analysis and host samples
+接手文档*.md
+适配说明*.md
+*分析*.md
+app/test/
+tools/
